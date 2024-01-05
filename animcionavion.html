@@ -1,39 +1,39 @@
 <!DOC type.html />
 
 <html>
+
 <head>
-<title>Animacion avion volando</title>
-<link href="CCbordes/animacionavion.css" rel="stylesheet" type="text/css" />
-<script src="script/visor.js"></script>
+	<title>Animacion avion volando</title>
+	<link href="CCbordes/animacionavion.css" rel="stylesheet" type="text/css" />
+	<script src="script/visor.js"></script>
 </head>
 
 <body>
-<h2>Avión sobre volando un fondo en movimiento</h2>
-<article>
-<div id="visor">
-<img id="playa" src="igmg/playa.jpg" alt="playa">
-<img id="avion" src="igmg/avion.png" alt="avion">
+	<h2>Avión sobre volando un fondo en movimiento</h2>
+	<article>
+		<div id="visor">
+			<img id="playa" src="igmg/playa.jpg" alt="playa">
+			<img id="avion" src="igmg/avion.png" alt="avion">
 
-</div>
-</article>
+		</div>
+	</article>
 
-<article>
-	<p>
-	<input type="button" name="stop" value="Stop"    onclick="parar()" />
-	<input type="button" name="Play"  value="Play" onclick="seguir()" />
-	
-<select name="vel" onchange="velocidad(this.value)"></select>
-	<select name="vel">
-	<option selected="selected" onclick="velocidad(4)"> Normal</option>
+	<article>
+		<p>
+			<input type="button" name="stop" value="Stop" onclick="parar()" />
+			<input type="button" name="Play" value="Play" onclick="seguir()" />
 
-	<option onclick="velocidad (10)">Muy lento</option>
-	<option onclick="velocidad (8)">Lento</option>
-	<option onclick="velocidad (2)">Rápido</option>
-	<option onclick="velocidad (1)">Muy Rápido</option>
-	</p>
-	
-</article>
+			<b>Elige la velocidad:</b>
+			<select name="vel">
+				<option selected="selected" onclick="velocidad(4)"> Normal</option>
+
+				<option onclick="velocidad (10)">Muy lento</option>
+				<option onclick="velocidad (8)">Lento</option>
+				<option onclick="velocidad (2)">Rápido</option>
+				<option onclick="velocidad (1)">Muy Rápido</option>
+		</p>
+
+	</article>
 </body>
+
 </html>
-
-
