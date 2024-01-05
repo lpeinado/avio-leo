@@ -24,13 +24,14 @@
 			<input type="button" name="Play" value="Play" onclick="seguir()" />
 
 			<b>Elige la velocidad:</b>
-			<select name="vel">
-				<option selected="selected" onclick="velocidad(4)"> Normal</option>
+			<select name="vel" onchange="velocidad(this.value)">
+				<option selected="selected"> Normal</option>
 
-				<option onclick="velocidad (10)">Muy lento</option>
-				<option onclick="velocidad (8)">Lento</option>
-				<option onclick="velocidad (2)">Rápido</option>
-				<option onclick="velocidad (1)">Muy Rápido</option>
+				<option value="10">Muy lento</option>
+				<option value="8">Lento</option>
+				<option value="2">Rápido</option>
+				<option value="1">Muy Rápido</option>
+			</select>
 		</p>
 
 	</article>

@@ -1,21 +1,6 @@
 window.onload = function ()  {
-	playa = document.getElementById ("playa");
+	avion = document.getElementById ("avion");
 }
-
-function parar() {
-		playa.style.animationPlayState = "paused";
-		playa.style.MozAnimationPlayState = "paused";
-		playa.style.WebkitAnimationPlayState = "paused";	
-}
-
-
-function seguir () {
-		playa.style.animationPlayState = "running";
-		playa.style.MozAnimationPlayState = "running";
-		playa.style.WebkitAnimationPlayState = "running";
-}
-
-
 
 function parar() {
 		avion.style.animationPlayState = "paused";
@@ -30,23 +15,9 @@ function seguir () {
 		avion.style.WebkitAnimationPlayState = "running";
 }
 
-function velocidad (num) {
-		valor = num + "s";
+function velocidad (valor) {
+		valor = valor + "s";
 		avion.style.animationDuration = valor;
 		avion.style.MozAnimationDuration = valor;
 		avion.style.WebkitAnimationDuration = valor;
-
 }
-
-
-
-function velocidad (num) {
-		valor = num + "s";
-		playa.style.animationDuration = valor;
-		playa.style.MozAnimationDuration = valor;
-		playa.style.WebkitAnimationDuration = valor;
-
-}
-
-
-
