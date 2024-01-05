@@ -1,0 +1,129 @@
+#visor
+{
+	width:400px;
+	height: 400px;
+	background-color: silver;
+	overflow: hidden;
+	position: absolute;
+	top: 40px;
+	
+	
+}
+
+
+#playa
+{
+	position: relative;
+	width: 1200px;
+	height: 400px;
+}
+
+
+#avion
+{
+	position: absolute;
+	top: 80px;
+	left: 140px;
+	width: 85px;
+}
+ 
+#avion
+{
+	animation-name: avion;
+	animation-duration: 5s;
+	animation-cubic-bezier:  (0.0, 0.0, 0.1, 0.1);
+	animation-iteration-count: infinite;
+
+	-moz-animation-name: avion;
+	-moz-animation-duration: 5s;
+	-moz-animation-cubic-bezier: (0.0, 0.0, 0.1, 0.1);
+	-moz-animation-iteration-count: infinite;
+
+	-webkit-animation-name: avion;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-cubic-bezier:  (0.0, 0.0, 0.1, 0.1);
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+
+#playa
+{
+	animation-name: playa;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+	-moz-animation-name: playa;
+	-moz-animation-duration: 5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+
+	-webkit-animation-name: playa;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+
+
+
+@keyframes  playa{
+	from { left: 0px; }
+	
+	to { left: -600px; }
+}
+
+@-moz-keyframes  {
+	from { left: 0px; }
+	
+	to{ left: -600px; }
+}
+
+@-webkit-keyframes {
+	from { left: 0px; }
+	
+	to { left: 600px; }
+}
+
+
+
+
+@keyframes  avion{
+	from { left: 0px; }
+	
+	to { left: 600px; }
+}
+
+@-moz-keyframes  {
+	from { left: 0px; }
+	
+	to{ left: 200px; }
+}
+
+@-webkit-keyframes {
+	from { left: 0px; }
+	
+	to { left: 200px; }
+}
+
+
+
+p{
+
+margin-left: 20px;
+position: relative;
+top: 430px;
+
+}
+
+h2{
+margin-left: px;	
+position: center;
+top: 20px;
+}
+
+
+
+
+
